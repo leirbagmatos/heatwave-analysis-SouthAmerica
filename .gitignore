@@ -1,0 +1,30 @@
+# Ignore raw climate datasets (ERA5, netCDF, GRIB)
+*.nc
+*.nc4
+*.grib
+*.grb
+*.grib2
+
+# Ignore compressed large files
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# Ignore temporary work directories
+data/
+raw/
+temp/
+tmp/
+download/
+
+# Ignore R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+desktop.ini
